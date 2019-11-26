@@ -1,0 +1,25 @@
+body {
+	font-family: Roboto;
+}
+
+.score1 { width: 20%; }
+.score2 { width: 40%; }
+.score3 { width: 60%; }
+.score4 { width: 80%; }
+.score5 { width: 100%; }
+
+.petcards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.card {
+	border: 1px solid black;
+	border-radius: 0.7em;
+	box-shadow: 5px 5px 3px 0px rgba(130,130,130,1);
+	padding: 1em;
+	margin: 1em;
+}
+.cuddliness, .independence, .likability {
+	border: 1px solid hotpink;
+	background-color: pink;
+}
